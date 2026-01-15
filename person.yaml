@@ -1,0 +1,40 @@
+
+- name: redddy
+  #this is key value pair
+  dob: 01-10-99
+  #this is mapping 
+  address:
+    street: "MG road"
+    city: "Bangalore"
+    state: "Karnataka"
+  #this is list of items 
+  addresses:
+  - type: permanent
+    street: "MG road"
+    city: "Bangalore"
+    state: "Karnataka"
+  - type: temporary
+    street: "Brigade road"
+    city: "Bangalore"
+    state: "Karnataka"
+
+- name: redddy
+  dob: 01-10-99
+  #this is mapping key value pai 
+  address:
+    street: "MG road"
+    city: "Bangalore"
+    state: "Karnataka"
+  #this is list of items 
+  addresses:
+  - type: permanent
+    street: "MG road"
+    city: "Bangalore"
+    state: "Karnataka"
+  - type: temporary
+    street: "Brigade road"
+    city: "Bangalore"
+    state: "Karnataka"
+
+
+  
