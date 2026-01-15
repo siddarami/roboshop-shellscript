@@ -2,9 +2,4 @@
 [mongodb]
 23.22.134.228
 
-[cart]
-roboshop-us-dev-app-mongodb-01.joindevops.online
 
-[db:child]
-mongodb
-mysql
