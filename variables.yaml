@@ -3,6 +3,5 @@
   hosts: mongodb
   tasks: 
   - name: display message
-    ansible.builtin.debud:
+    ansible.builtin.debug:
       msg: "hello world this is my first playbook"
-      
