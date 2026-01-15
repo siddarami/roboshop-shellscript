@@ -2,9 +2,9 @@
 - name: print the message
   hosts: mongodb
   vars:
-    name: redddy
+    firstname: redddy
     course: devops
   tasks: 
   - name: display message
     ansible.builtin.debug:
-      msg: "hello world my name is {{name}} and i am learning {{course}}"
+      msg: "hello world my name is {{firstname}} and i am learning {{course}}"
